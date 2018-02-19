@@ -2,10 +2,9 @@
 Create a class Circle which has a class variable PI with the value=22/7. Make two methods getArea and getCircumference inside this
  Circle class. Which when invoked returns area and circumference of each circle instances.
 """
-
 class circle:
     pi=22/7
-    def __index__(self,radius):
+    def __init__(self,radius):
         self.radius=radius
 
 
